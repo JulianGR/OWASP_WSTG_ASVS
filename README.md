@@ -15,17 +15,17 @@ I've uploaded the spreadsheet to Google sheets aswell: https://docs.google.com/s
 
 I've taken the OWASP WSTG as a base and then tried to add vulnerabilities that were missing in WSTG but were present in ASVS. Here are the fields of the spreadsheet:
 
-+ Recommended CVSSv3: CVSSv3.1 recommended vector. Note that this is just a hint and should not be used as-is. Each vulnerability depends heavily on the context, but it is nice that the reporting tools have at least a template.
-+ OWASP ASVS: OWASP ASVS code for the vuln. **NOTE**: there is a mapping between WSTG and ASVS that were made taking inspiration from https://github.com/jeremychoi/owasp-asvs-wstg-checklist. Every mapping may not be the same as in this repo, though. 
-+ OWASP WSTG: OWASP WSTG code for the vuln.
-+ Category: Category from OWASP WSTG.
-+ Title: titles are made by hand.
-+ CWE: Associated CWE for the vuln. I tried that every vuln has at least one code. (See Impact field) 
-+ Description: description of each vuln was made by hand.
-+ Impact codes: Each CWE has an impact section (take https://cwe.mitre.org/data/definitions/299.html for example and scroll down to the "Common consequences" section, you'll see it). I've made an inventory of CWE's impacts so that they can be repeated. This inventory is in the Impact_ENG sheet and each has an ID. These IDs are the Impact codes.
-+ Impact: The text from the impact itself is taken from the impact inventory 
-+ Remediation: remediation of each vuln was made by hand.
-+ References: The references are either the CWE of the link for WSTG.
++ **Recommended CVSSv3**: CVSSv3.1 recommended vector. Note that this is just a hint and should not be used as-is. Each vulnerability depends heavily on the context, but it is nice that the reporting tools have at least a template.
++ **OWASP ASVS**: OWASP ASVS code for the vuln. **NOTE**: there is a mapping between WSTG and ASVS that were made taking inspiration from https://github.com/jeremychoi/owasp-asvs-wstg-checklist. Every mapping may not be the same as in this repo, though. 
++ **OWASP WSTG**: OWASP WSTG code for the vuln.
++ **Category**: Category from OWASP WSTG.
++ **Title**: titles are made by hand.
++ **CWE**: Associated CWE for the vuln. I tried that every vuln has at least one code. (See Impact field) 
++ **Description**: description of each vuln was made by hand.
++ **Impact codes**: Each CWE has an impact section (take https://cwe.mitre.org/data/definitions/299.html for example and scroll down to the "Common consequences" section, you'll see it). I've made an inventory of CWE's impacts so that they can be repeated. This inventory is in the Impact_ENG sheet and each has an ID. These IDs are the Impact codes.
++ **Impact**: The text from the impact itself is taken from the impact inventory 
++ **Remediation**: remediation of each vuln was made by hand.
++ **References**: The references are either the CWE of the link for WSTG.
 
 ## Limitations
 
