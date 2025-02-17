@@ -8,8 +8,6 @@ The idea behind this project is to create a spreadsheet with vulnerabilities so 
 ![preview.png](https://github.com/JulianGR/OWASP_WSTG_ASVS/blob/main/preview.png?raw=true)
 
 
-I've uploaded the spreadsheet to Google sheets aswell: https://docs.google.com/spreadsheets/d/1jj7ESXg9ks-97XiHbdcWJbfsims2d3MP2MxSuNdesWk/edit?usp=sharing
-
 
 # How is each field built?
 
